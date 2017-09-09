@@ -1,0 +1,83 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  /*padding-bottom: 20px;*/
+  background-color:#222;
+}
+
+h3{color:white;}
+
+ul{color:white;}
+
+.header-image{
+	padding:5px 0 5px 5px;
+	margin-left:5px;
+	display:block;
+	border:0;
+}
+
+.jumbotron{
+	margin-top:-20px;
+	padding:0;
+	/*padding-top:10px;*/
+	background-color:#2d2c2c;
+	
+}
+
+.jumbotron p, .jumbotron h1{color:white;}
+
+
+footer{
+	background-color:#222;
+	height:200px;
+}
+
+footer p{padding:20px;color:white;}
+
+
+	.slide1{
+	/*background-image:url('assets/images/background-test.jpg');*/
+	/*background-repeat:no-repeat;*/
+	background-image:url('assets/images/background-test.html');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
+	
+	}
+.container{
+	/*background-color:#595757;*/
+	/*background-image:url('assets/images/facilities.jpg');
+	background-repeat:no-repeat;
+	background-position:relative;
+	height:auto;*/
+	/*background-position:fixed;
+	background-size:100%;*/
+	background: #8a5c8b; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #8a5c8b 26%, #396ad4 71%, #0d337a 100%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(26%,#8a5c8b), color-stop(71%,#396ad4), color-stop(100%,#0d337a)); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top,  #8a5c8b 26%,#396ad4 71%,#0d337a 100%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top,  #8a5c8b 26%,#396ad4 71%,#0d337a 100%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top,  #8a5c8b 26%,#396ad4 71%,#0d337a 100%); /* IE10+ */
+
+background: linear-gradient(to bottom,  #8a5c8b 26%,#396ad4 71%,#0d337a 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a5c8b', endColorstr='#0d337a',GradientType=0 ); /* IE6-9 */
+
+
+
+}	
+.container p{color:white;}
+.container h1,h2{color:white;}
+
+a.white-link{color:white;text-decoration:underline;}
+
+a[href^="mailto:"] {color:white;}
+
+img{border: 1px solid white;}
+
+img.no-border{border:0;}
